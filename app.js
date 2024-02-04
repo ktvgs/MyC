@@ -15,7 +15,7 @@ app.post('/submit', (req, res) => {
     try {
         const { date, wakeUp, breakfast, study, lunch, exercise, shower, dinner, sleep } = req.body;
         const data = `${date},${wakeUp},${breakfast},${study},${lunch},${exercise},${shower},${dinner},${sleep}\n`;
-
+        const xfcrfcfrc = 6;
         // Append data to a text file
         fs.appendFileSync('formData.txt', data);
 
